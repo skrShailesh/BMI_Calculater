@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="hint_wt">Enter Your Weight</string>
+    <string name="hint_FT">Enter Your Height(in FT)</string>
+    <string name="hint_IN">Enter Your Height(in IN)</string>
+    <string name="calculate_bmi">calculate BMI</string>
+    <string name="result">RESULT</string>
+    <string name="overweight">You are Overweight</string>
+    <string name="over">OVERWEIGHT!</string>
+    <string name="underweight">UNDERWEIGHT</string>
+    <string name="normal">NORMAL</string>
+
+
+</resources>

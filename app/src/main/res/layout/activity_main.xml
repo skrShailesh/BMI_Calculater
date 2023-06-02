@@ -10,41 +10,61 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/edtWeight"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="42dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="28dp"
         android:ems="10"
         android:hint="@string/hint_wt"
-        android:id="@+id/edtWeight"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp" />
+
     <EditText
+        android:id="@+id/edtHeightFt"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="28dp"
         android:ems="10"
         android:hint="@string/hint_FT"
-        android:id="@+id/edtHeightFt"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:paddingStart="14dp"/>
+
     <EditText
+        android:id="@+id/edtHeightIn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="28dp"
         android:ems="10"
         android:hint="@string/hint_IN"
-        android:id="@+id/edtHeightIn"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:paddingStart="14dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="22dp"
         android:text="@string/calculate_bmi"
-        android:id="@+id/btnCalculate"/>
+        android:id="@+id/btnCalculate"
+        android:textStyle="bold"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom_input"
+        android:ems="8"
         android:hint="@string/result"
+        android:paddingStart="60dp"
+        android:paddingVertical="4dp"
         android:textSize="21sp"
-        android:textStyle="bold"
-        android:layout_marginTop="11dp"/>
+        android:textStyle="bold" />
 
 
 </LinearLayout>

@@ -25,7 +25,11 @@ and encouraging them to maintain a healthy body weight.<br>
 ## For Underweight
 <br>
 
-![20230609_111648](https://github.com/skrShailesh/BMI/assets/114929285/265d11e0-7010-4dd2-92b4-c6b99922dab9)
+![20230609_111648](https://github.com/skrShailesh/BMI/assets/114929285/265d11e0-7010-4dd2-92b4-c6b99922dab9)</br>
+
+## For Overweight
+<br>![20230609_111715](https://github.com/skrShailesh/BMI_Calculater/assets/114929285/6bc52110-caaa-4038-a3dd-7543d546fa46)
+</br>
 
 
 
